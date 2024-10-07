@@ -1,4 +1,4 @@
-function calcularRank (vitorias, derrotas) {
+function calcularRank(vitorias, derrotas) {
 let saldoVitorias = vitorias - derrotas;
 let nivel;
 
@@ -26,3 +26,6 @@ nivel = "Imortal";
 return `O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`;
 }
 
+// Exemplo de uso:
+let resultado = calcularRank(100, 0);
+console.log(resultado); // "O Herói tem de saldo de 100 está no nível de Diamante"
